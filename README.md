@@ -1,5 +1,3 @@
-Ecco un esempio di file README in formato Markdown per un tutorial sull'utilizzo di Git:
-
 # Tutorial Git: Guida per Principianti
 
 Benvenuto nel tutorial su Git! In questo documento imparerai i concetti di base e i comandi principali per utilizzare Git in modo efficace, sia per la gestione locale dei progetti che per la collaborazione tramite repository remoti.
