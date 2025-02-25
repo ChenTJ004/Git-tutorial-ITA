@@ -1,0 +1,82 @@
+===========================================
+          COMANDI GIT PIÙ USATI
+===========================================
+
+1. INIZIALIZZAZIONE E CONFIGURAZIONE
+-------------------------------------------
+- git init
+  Descrizione: Inizializza un nuovo repository Git nella directory corrente.
+  
+- git config --global user.name "IlTuoNome"
+  Descrizione: Configura il nome utente per i commit.
+  
+- git config --global user.email "tua.email@example.com"
+  Descrizione: Configura l'email associata ai commit.
+
+2. AGGIUNTA E COMMIT DEI FILE
+-------------------------------------------
+- git add .
+  Descrizione: Aggiunge tutti i file modificati all'area di staging.
+  
+- git add nomefile
+  Descrizione: Aggiunge un file specifico all'area di staging.
+  
+- git commit -m "Messaggio descrittivo"
+  Descrizione: Registra uno snapshot dello stato attuale del repository con un messaggio descrittivo.
+
+3. CONTROLLO DELLO STATO E DELLA CRONOLOGIA
+-------------------------------------------
+- git status
+  Descrizione: Visualizza lo stato dei file (modifiche, file non tracciati, ecc.) nel repository.
+  
+- git log
+  Descrizione: Mostra la cronologia dei commit effettuati.
+
+4. GESTIONE DEI BRANCH
+-------------------------------------------
+- git branch
+  Descrizione: Elenca tutti i branch presenti nel repository.
+  
+- git branch nome-branch
+  Descrizione: Crea un nuovo branch con il nome specificato.
+  
+- git checkout nome-branch
+  Descrizione: Passa al branch specificato.
+  
+- git checkout -
+  Descrizione: Torna al branch precedente.
+  
+- git merge nome-branch
+  Descrizione: Unisce il branch specificato al branch corrente.
+
+5. GESTIONE DEI REPOSITORY REMOTI
+-------------------------------------------
+- git remote add origin URL
+  Descrizione: Aggiunge un repository remoto (solitamente chiamato "origin") con l'URL specificato.
+  
+- git push -u origin nome-branch
+  Descrizione: Invia i commit del branch locale al repository remoto e imposta il branch remoto come riferimento (tracking) per le future operazioni.
+  
+- git pull origin nome-branch
+  Descrizione: Recupera e integra le modifiche dal branch remoto nel branch locale.
+  
+- git clone URL
+  Descrizione: Crea una copia locale di un repository remoto esistente.
+
+6. VISUALIZZAZIONE DELLE DIFFERENZE
+-------------------------------------------
+- git diff
+  Descrizione: Mostra le differenze tra i file modificati e l'ultimo commit.
+  
+- git diff --staged
+  Descrizione: Visualizza le differenze dei file che sono stati aggiunti all'area di staging rispetto all'ultimo commit.
+
+7. ANNULLARE LE MODIFICHE
+-------------------------------------------
+- git checkout -- nomefile
+  Descrizione: Annulla le modifiche non ancora committate in un file specifico.
+  
+- git reset
+  Descrizione: Ripristina l'area di staging allo stato dell'ultimo commit (utile per annullare l'aggiunta dei file in staging).
+
+===========================================
